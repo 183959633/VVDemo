@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0721465D30D679C7F1D205 /* libPods-VVDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D34EB4F099ADB8995598248A /* libPods-VVDemo.a */; };
+		CE264FBA209AD75E0088AED1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE264FB9209AD75E0088AED1 /* HomeViewController.m */; };
+		CE264FBD209AD8CE0088AED1 /* AssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE264FBC209AD8CE0088AED1 /* AssetsViewController.m */; };
+		CE264FC0209AD8EA0088AED1 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE264FBF209AD8EA0088AED1 /* NewsViewController.m */; };
+		CE264FC3209AD9000088AED1 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE264FC2209AD9000088AED1 /* SettingViewController.m */; };
+		CE264FC6209C3CC60088AED1 /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE264FC5209C3CC60088AED1 /* CommonViewController.m */; };
+		CEC52AE3206E068000790754 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52AE2206E068000790754 /* AppDelegate.m */; };
+		CEC52AE6206E068000790754 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52AE5206E068000790754 /* RootViewController.m */; };
+		CEC52AEB206E068000790754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC52AEA206E068000790754 /* Assets.xcassets */; };
+		CEC52AF1206E068000790754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52AF0206E068000790754 /* main.m */; };
+		CED74AF320A42D3800FEEE1E /* UIImage+img.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74AF220A42D3700FEEE1E /* UIImage+img.m */; };
+		CED74AF620A42D6B00FEEE1E /* NSObject+addName.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74AF520A42D6B00FEEE1E /* NSObject+addName.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B8C4C55D1AB83A0EDCAB500 /* Pods-VVDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VVDemo/Pods-VVDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CE264FB8209AD75E0088AED1 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CE264FB9209AD75E0088AED1 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CE264FBB209AD8CE0088AED1 /* AssetsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetsViewController.h; sourceTree = "<group>"; };
+		CE264FBC209AD8CE0088AED1 /* AssetsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetsViewController.m; sourceTree = "<group>"; };
+		CE264FBE209AD8EA0088AED1 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		CE264FBF209AD8EA0088AED1 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		CE264FC1209AD9000088AED1 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		CE264FC2209AD9000088AED1 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		CE264FC4209C3CC60088AED1 /* CommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		CE264FC5209C3CC60088AED1 /* CommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		CEC52ADE206E068000790754 /* VVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC52AE1206E068000790754 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC52AE2206E068000790754 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC52AE4206E068000790754 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CEC52AE5206E068000790754 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CEC52AEA206E068000790754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEC52AEF206E068000790754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC52AF0206E068000790754 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CED74AF120A42D3700FEEE1E /* UIImage+img.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+img.h"; sourceTree = "<group>"; };
+		CED74AF220A42D3700FEEE1E /* UIImage+img.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+img.m"; sourceTree = "<group>"; };
+		CED74AF420A42D6B00FEEE1E /* NSObject+addName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+addName.h"; sourceTree = "<group>"; };
+		CED74AF520A42D6B00FEEE1E /* NSObject+addName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+addName.m"; sourceTree = "<group>"; };
+		D34EB4F099ADB8995598248A /* libPods-VVDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VVDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC41AE1C5753E59122F5E82 /* Pods-VVDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VVDemo/Pods-VVDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC52ADB206E068000790754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0721465D30D679C7F1D205 /* libPods-VVDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05BEE70B7C2078C5ECB69244 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C4C55D1AB83A0EDCAB500 /* Pods-VVDemo.debug.xcconfig */,
+				FAC41AE1C5753E59122F5E82 /* Pods-VVDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D65E50433458C5929E0AD65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D34EB4F099ADB8995598248A /* libPods-VVDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC52AD5206E068000790754 = {
+			isa = PBXGroup;
+			children = (
+				CEC52AE0206E068000790754 /* VVDemo */,
+				CEC52ADF206E068000790754 /* Products */,
+				05BEE70B7C2078C5ECB69244 /* Pods */,
+				9D65E50433458C5929E0AD65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC52ADF206E068000790754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC52ADE206E068000790754 /* VVDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC52AE0206E068000790754 /* VVDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CEC52AE1206E068000790754 /* AppDelegate.h */,
+				CEC52AE2206E068000790754 /* AppDelegate.m */,
+				CEC52AE4206E068000790754 /* RootViewController.h */,
+				CEC52AE5206E068000790754 /* RootViewController.m */,
+				CE264FB8209AD75E0088AED1 /* HomeViewController.h */,
+				CE264FB9209AD75E0088AED1 /* HomeViewController.m */,
+				CE264FBB209AD8CE0088AED1 /* AssetsViewController.h */,
+				CE264FBC209AD8CE0088AED1 /* AssetsViewController.m */,
+				CE264FBE209AD8EA0088AED1 /* NewsViewController.h */,
+				CE264FBF209AD8EA0088AED1 /* NewsViewController.m */,
+				CE264FC1209AD9000088AED1 /* SettingViewController.h */,
+				CE264FC2209AD9000088AED1 /* SettingViewController.m */,
+				CE264FC4209C3CC60088AED1 /* CommonViewController.h */,
+				CED74AF120A42D3700FEEE1E /* UIImage+img.h */,
+				CED74AF220A42D3700FEEE1E /* UIImage+img.m */,
+				CED74AF420A42D6B00FEEE1E /* NSObject+addName.h */,
+				CED74AF520A42D6B00FEEE1E /* NSObject+addName.m */,
+				CE264FC5209C3CC60088AED1 /* CommonViewController.m */,
+				CEC52AEA206E068000790754 /* Assets.xcassets */,
+				CEC52AEF206E068000790754 /* Info.plist */,
+				CEC52AF0206E068000790754 /* main.m */,
+			);
+			path = VVDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC52ADD206E068000790754 /* VVDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC52AF4206E068000790754 /* Build configuration list for PBXNativeTarget "VVDemo" */;
+			buildPhases = (
+				0C5AA0DDE84DAEFE940CB55C /* [CP] Check Pods Manifest.lock */,
+				CEC52ADA206E068000790754 /* Sources */,
+				CEC52ADB206E068000790754 /* Frameworks */,
+				CEC52ADC206E068000790754 /* Resources */,
+				7049AE2FFC21454BEB366A2C /* [CP] Embed Pods Frameworks */,
+				DF1D9C978EE03D51DB607368 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VVDemo;
+			productName = VVDemo;
+			productReference = CEC52ADE206E068000790754 /* VVDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC52AD6206E068000790754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jack;
+				TargetAttributes = {
+					CEC52ADD206E068000790754 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = CEC52AD9206E068000790754 /* Build configuration list for PBXProject "VVDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC52AD5206E068000790754;
+			productRefGroup = CEC52ADF206E068000790754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC52ADD206E068000790754 /* VVDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC52ADC206E068000790754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC52AEB206E068000790754 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C5AA0DDE84DAEFE940CB55C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VVDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7049AE2FFC21454BEB366A2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VVDemo/Pods-VVDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1D9C978EE03D51DB607368 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VVDemo/Pods-VVDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC52ADA206E068000790754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE264FBD209AD8CE0088AED1 /* AssetsViewController.m in Sources */,
+				CE264FC6209C3CC60088AED1 /* CommonViewController.m in Sources */,
+				CED74AF620A42D6B00FEEE1E /* NSObject+addName.m in Sources */,
+				CEC52AE6206E068000790754 /* RootViewController.m in Sources */,
+				CED74AF320A42D3800FEEE1E /* UIImage+img.m in Sources */,
+				CEC52AF1206E068000790754 /* main.m in Sources */,
+				CE264FC3209AD9000088AED1 /* SettingViewController.m in Sources */,
+				CE264FC0209AD8EA0088AED1 /* NewsViewController.m in Sources */,
+				CEC52AE3206E068000790754 /* AppDelegate.m in Sources */,
+				CE264FBA209AD75E0088AED1 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEC52AF2206E068000790754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC52AF3206E068000790754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC52AF5206E068000790754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8C4C55D1AB83A0EDCAB500 /* Pods-VVDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = VVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pactera.VVDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CEC52AF6206E068000790754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC41AE1C5753E59122F5E82 /* Pods-VVDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = VVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pactera.VVDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC52AD9206E068000790754 /* Build configuration list for PBXProject "VVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC52AF2206E068000790754 /* Debug */,
+				CEC52AF3206E068000790754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC52AF4206E068000790754 /* Build configuration list for PBXNativeTarget "VVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC52AF5206E068000790754 /* Debug */,
+				CEC52AF6206E068000790754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC52AD6206E068000790754 /* Project object */;
+}
