@@ -13,11 +13,11 @@
     NSString *indexPathID;
 }
 @end
-
 @implementation NewsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [self setUI];
     [self asyncSerial];
 }

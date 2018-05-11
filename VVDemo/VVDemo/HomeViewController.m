@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUI];
-    
+//    [self syncSerial];
     NSObject *objc = [[NSObject alloc]init];
     objc.name =@"runtime 动态添加name属性";
     NSLog(@"%@",objc.name);
@@ -30,8 +30,6 @@
     [super viewWillAppear:animated];
     
     [_tabView reloadData];
-    [self syncSerial];
-    
 }
 - (NSMutableArray *)data{
     if (!_data) {

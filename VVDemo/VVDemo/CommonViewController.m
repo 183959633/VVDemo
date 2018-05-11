@@ -8,6 +8,7 @@
 
 #import "CommonViewController.h"
 #import <Masonry.h>
+#import "DataBase.h"
 @interface CommonViewController ()
 {
     @public
@@ -19,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [DB createTab];
     [self setUI];
 }
 #pragma 初始化UI界面
@@ -53,5 +55,9 @@
     if ([_infoString isEqualToString:@"NSUserDefaults轻量级"]) {
         [[NSUserDefaults standardUserDefaults]setObject:mTextField.text forKey:@"key"];
     }
+    
+    NSDictionary *dic = @{@"name":@"张三",@"address":@"上海",@"age":@"18"};
+    
+    [DB addMessageIntoSQLite:dic];
 }
 @end

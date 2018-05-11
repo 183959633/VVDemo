@@ -19,6 +19,7 @@
 		CEC52AF1206E068000790754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52AF0206E068000790754 /* main.m */; };
 		CED74AF320A42D3800FEEE1E /* UIImage+img.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74AF220A42D3700FEEE1E /* UIImage+img.m */; };
 		CED74AF620A42D6B00FEEE1E /* NSObject+addName.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74AF520A42D6B00FEEE1E /* NSObject+addName.m */; };
+		CED74AF920A5385B00FEEE1E /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CED74AF820A5385B00FEEE1E /* DataBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		CED74AF220A42D3700FEEE1E /* UIImage+img.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+img.m"; sourceTree = "<group>"; };
 		CED74AF420A42D6B00FEEE1E /* NSObject+addName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+addName.h"; sourceTree = "<group>"; };
 		CED74AF520A42D6B00FEEE1E /* NSObject+addName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+addName.m"; sourceTree = "<group>"; };
+		CED74AF720A5385B00FEEE1E /* DataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		CED74AF820A5385B00FEEE1E /* DataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
 		D34EB4F099ADB8995598248A /* libPods-VVDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VVDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC41AE1C5753E59122F5E82 /* Pods-VVDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VVDemo/Pods-VVDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,11 +115,13 @@
 				CE264FC1209AD9000088AED1 /* SettingViewController.h */,
 				CE264FC2209AD9000088AED1 /* SettingViewController.m */,
 				CE264FC4209C3CC60088AED1 /* CommonViewController.h */,
+				CE264FC5209C3CC60088AED1 /* CommonViewController.m */,
+				CED74AF720A5385B00FEEE1E /* DataBase.h */,
+				CED74AF820A5385B00FEEE1E /* DataBase.m */,
 				CED74AF120A42D3700FEEE1E /* UIImage+img.h */,
 				CED74AF220A42D3700FEEE1E /* UIImage+img.m */,
 				CED74AF420A42D6B00FEEE1E /* NSObject+addName.h */,
 				CED74AF520A42D6B00FEEE1E /* NSObject+addName.m */,
-				CE264FC5209C3CC60088AED1 /* CommonViewController.m */,
 				CEC52AEA206E068000790754 /* Assets.xcassets */,
 				CEC52AEF206E068000790754 /* Info.plist */,
 				CEC52AF0206E068000790754 /* main.m */,
@@ -247,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED74AF920A5385B00FEEE1E /* DataBase.m in Sources */,
 				CE264FBD209AD8CE0088AED1 /* AssetsViewController.m in Sources */,
 				CE264FC6209C3CC60088AED1 /* CommonViewController.m in Sources */,
 				CED74AF620A42D6B00FEEE1E /* NSObject+addName.m in Sources */,

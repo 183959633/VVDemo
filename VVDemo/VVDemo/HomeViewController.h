@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HomeViewController : UIViewController
-@property(nonatomic,strong)UITableView *tabView;
+@property(nonatomic,strong)UITableView    *tabView;
 @property(nonatomic,strong)NSMutableArray *data;
 @end
