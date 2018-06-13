@@ -10,7 +10,7 @@
 #import <objc/runtime.h>
 @implementation NSObject (addName)
 - (void)setName:(NSString *)name{
-    objc_setAssociatedObject(self, @"name", name, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, @"name", name, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 - (NSString *)name{
     return objc_getAssociatedObject(self, @"name");
