@@ -9,13 +9,13 @@
 #import "HomeViewController.h"
 #import "CommonViewController.h"
 #import "NSObject+addName.h"
+#import "DataBase.h"
 @interface HomeViewController ()<UITableViewDelegate,UITableViewDataSource>
-{
-    NSString *indexPathID;
-}
 @end
 
 @implementation HomeViewController
+
+static NSString *const indexPathID = @"ReuseIdentifier";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,7 +23,7 @@
 //    [self syncSerial];
     NSObject *objc = [[NSObject alloc]init];
     objc.name =@"runtime 动态添加name属性";
-    NSLog(@"%@",objc.name);
+//    NSLog(@"%@",objc.name);
     
 }
 - (void)viewWillAppear:(BOOL)animated{
@@ -44,7 +44,6 @@
         _tabView.dataSource  = self;
         _tabView.separatorStyle = UITableViewCellSeparatorStyleNone;
         
-        indexPathID = @"indexPathID";
         [_tabView registerClass:[UITableViewCell class] forCellReuseIdentifier:indexPathID];
     }
     return _tabView;
@@ -107,6 +106,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:indexPathID forIndexPath:indexPath];
     
+    
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:indexPathID];
     }
@@ -114,5 +114,10 @@
     NSString *str = _data[indexPath.row];
     cell.textLabel.text = str;
     return cell;
+}
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    CGFloat y =  scrollView.contentOffset.y;
+    
+    NSLog(@"CGFloat===%f",y);
 }
 @end

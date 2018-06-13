@@ -21,8 +21,6 @@
     [super viewDidLoad];
     [self setUI];
     [self syncConcurrent];
-    
-    UIImage *img = [UIImage imageNamed:@"panda"];
 }
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];

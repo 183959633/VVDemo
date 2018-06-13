@@ -19,6 +19,8 @@
     method_exchangeImplementations(imageNamedMethod, jack_imageNamedMethod);
 }
 +(UIImage*)jack_imageNamed:(NSString*)name{
+    
+    //这里调用jack_imageNamed实际上是调用imageNamedMethod
     UIImage *img = [UIImage jack_imageNamed:name];
     if (img) {
         NSLog(@"runtime 动态互换方法img 写入成功!!!");
