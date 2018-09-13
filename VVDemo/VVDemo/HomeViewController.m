@@ -17,66 +17,13 @@
 
 static NSString *const indexPathID = @"ReuseIdentifier";
 
-int global_i = 1;
-NSString *global_k = @"全局变量";
-static int static_global_j = 2;
-static NSString *static_global_k = @"静态全局变量";
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUI];
 //    [self syncSerial];
     NSObject *objc = [[NSObject alloc]init];
     objc.name =@"runtime 动态添加name属性";
-//    NSLog(@"%@",objc.name);
-    
-    static  int      static_k  = 3;
-    static  NSString *static_m = @"静态变量";
-    __block int      val       = 4;
-    __block NSString *val_k    = @"自动变量";
-    
-    void(^textBlock)(NSInteger index) = ^(NSInteger kIndex) {
-        
-        global_i        ++;
-        global_k        = @"全局变量+2";
-        static_global_j ++;
-        static_global_k = @"静态全局变量+2";
-        static_k        ++;
-        static_m        = @"静态变量+2";
-        val             ++;
-        val_k           = @"自动变量+2";
-        
-        NSLog(@"Block内-(非OC)全局变量===%i,地址===%p",global_i,&global_i);
-        NSLog(@"Block内-(OC)全局变量===%@,地址===%p",global_k,&global_k);
-        NSLog(@"Block内-(非OC)静态全局变量===%i,地址===%p",static_global_j,&static_global_j);
-        NSLog(@"Block内-(OC)静态全局变量===%@,地址===%p",static_global_k,&static_global_k);
-        NSLog(@"Block内-(非OC)静态变量===%i,地址===%p",static_k,&static_k);
-        NSLog(@"Block内-(OC)静态变量===%@,地址===%p",static_m,&static_m);
-        NSLog(@"Block内-(非OC)自动变量===%i,地址===%p",val,&val);
-        NSLog(@"Block外内-(OC)自动变量===%@,地址===%p",val_k,&val_k);
-        
-        
-    };
-    global_i        ++;
-    global_k        = @"全局变量+1";
-    static_global_j ++;
-    static_global_k = @"静态全局变量+1";
-    static_k        ++;
-    static_m        = @"静态变量+1";
-    val             ++;
-    val_k           = @"自动变量+1";
-    
-    NSLog(@"Block外-(非OC)全局变量===%i,地址===%p",global_i,&global_i);
-    NSLog(@"Block外-(OC)全局变量===%@,地址===%p",global_k,&global_k);
-    NSLog(@"Block外-(非OC)静态全局变量===%i,地址===%p",static_global_j,&static_global_j);
-    NSLog(@"Block外-(OC)静态全局变量===%@,地址===%p",static_global_k,&static_global_k);
-    NSLog(@"Block外-(非OC)静态变量===%i,地址===%p",static_k,&static_k);
-    NSLog(@"Block外-(OC)静态变量===%@,地址===%p",static_m,&static_m);
-    NSLog(@"Block外-(非OC)自动变量===%i,地址===%p",val,&val);
-    NSLog(@"Block外-(OC)自动变量===%@,地址===%p",val_k,&val_k);
-    
-    textBlock(5);
-    
+
 }
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];

@@ -13,6 +13,8 @@
 		CE264FC0209AD8EA0088AED1 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE264FBF209AD8EA0088AED1 /* NewsViewController.m */; };
 		CE264FC3209AD9000088AED1 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE264FC2209AD9000088AED1 /* SettingViewController.m */; };
 		CE264FC6209C3CC60088AED1 /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE264FC5209C3CC60088AED1 /* CommonViewController.m */; };
+		CEB8F73A214A349900A456A7 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB8F739214A349900A456A7 /* NSArray+Log.m */; };
+		CEB8F73D214A356F00A456A7 /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB8F73C214A356F00A456A7 /* NSDictionary+Log.m */; };
 		CEC52AE3206E068000790754 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52AE2206E068000790754 /* AppDelegate.m */; };
 		CEC52AE6206E068000790754 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52AE5206E068000790754 /* RootViewController.m */; };
 		CEC52AEB206E068000790754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC52AEA206E068000790754 /* Assets.xcassets */; };
@@ -34,6 +36,10 @@
 		CE264FC2209AD9000088AED1 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		CE264FC4209C3CC60088AED1 /* CommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
 		CE264FC5209C3CC60088AED1 /* CommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		CEB8F738214A349900A456A7 /* NSArray+Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+Log.h"; path = "/Users/User/Desktop/VVDemo/VVDemo/VVDemo/NSArray+Log.h"; sourceTree = "<absolute>"; };
+		CEB8F739214A349900A456A7 /* NSArray+Log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Log.m"; path = "/Users/User/Desktop/VVDemo/VVDemo/VVDemo/NSArray+Log.m"; sourceTree = "<absolute>"; };
+		CEB8F73B214A356F00A456A7 /* NSDictionary+Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		CEB8F73C214A356F00A456A7 /* NSDictionary+Log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
 		CEC52ADE206E068000790754 /* VVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC52AE1206E068000790754 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEC52AE2206E068000790754 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -122,6 +128,10 @@
 				CED74AF220A42D3700FEEE1E /* UIImage+img.m */,
 				CED74AF420A42D6B00FEEE1E /* NSObject+addName.h */,
 				CED74AF520A42D6B00FEEE1E /* NSObject+addName.m */,
+				CEB8F738214A349900A456A7 /* NSArray+Log.h */,
+				CEB8F739214A349900A456A7 /* NSArray+Log.m */,
+				CEB8F73B214A356F00A456A7 /* NSDictionary+Log.h */,
+				CEB8F73C214A356F00A456A7 /* NSDictionary+Log.m */,
 				CEC52AEA206E068000790754 /* Assets.xcassets */,
 				CEC52AEF206E068000790754 /* Info.plist */,
 				CEC52AF0206E068000790754 /* main.m */,
@@ -260,7 +270,9 @@
 				CED74AF320A42D3800FEEE1E /* UIImage+img.m in Sources */,
 				CEC52AF1206E068000790754 /* main.m in Sources */,
 				CE264FC3209AD9000088AED1 /* SettingViewController.m in Sources */,
+				CEB8F73D214A356F00A456A7 /* NSDictionary+Log.m in Sources */,
 				CE264FC0209AD8EA0088AED1 /* NewsViewController.m in Sources */,
+				CEB8F73A214A349900A456A7 /* NSArray+Log.m in Sources */,
 				CEC52AE3206E068000790754 /* AppDelegate.m in Sources */,
 				CE264FBA209AD75E0088AED1 /* HomeViewController.m in Sources */,
 			);
